@@ -17,10 +17,10 @@ int main() {
     scanf("%c", &estado1);
 
     printf("Código do Estado: ");
-    scanf("%2s", &codEstado1);
+    scanf("%2s", codEstado1);
 
     printf("Cidade: "); // Cidades com apenas 1 nome
-    scanf("%s", &nomeCidade1);
+    scanf("%s", nomeCidade1);
 
     printf("População: ");
     scanf("%d", &populacao1);
@@ -41,10 +41,10 @@ int main() {
     scanf(" %c", &estado2);
 
     printf("Código do Estado: ");
-    scanf("%2s", &codEstado2);
+    scanf("%2s", codEstado2);
 
     printf("Cidade: "); // Cidades com apenas 1 nome
-    scanf("%s", &nomeCidade2);
+    scanf("%s", nomeCidade2);
 
     printf("População: ");
     scanf("%d", &populacao2);
@@ -66,9 +66,9 @@ int main() {
     printf("Código do Estado: %s\n", codEstado1);
     printf("Código da Carta: %c%s\n", estado1,codEstado1);
     printf("Cidade: %s\n", nomeCidade1);
-    printf("População: %d\n", populacao1);
+    printf("População: %d habitantes.\n", populacao1);
     printf("Área: %.2fkm²\n", area1);
-    printf("PIB: %.2fR$\n", pib1);
+    printf("PIB: %.2f bilhões de reais.\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
     printf("===========================================\n");
 
@@ -79,9 +79,9 @@ int main() {
     printf("Código do Estado: %s\n", codEstado2);
     printf("Código da Carta: %c%s\n", estado2,codEstado2);
     printf("Cidade: %s\n", nomeCidade2);
-    printf("População: %d\n", populacao2);
+    printf("População: %d habitantes.\n", populacao2);
     printf("Área: %.2fkm²\n", area2);
-    printf("PIB: %.2fR$\n", pib2);
+    printf("PIB: %.2f bilhões de reais.\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
     printf("===========================================\n");
 
